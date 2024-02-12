@@ -1,7 +1,28 @@
 package org.example;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        // declare variables
+        Scanner scanner = new Scanner(System.in);  // Create a Scanner
+        int length;
+        int width;
+
+        // read variables
+        System.out.println("Enter length ");
+        length = scanner.nextInt();
+
+        System.out.println("Enter width ");
+        width = scanner.nextInt();
+
+        // calculate area
+        int area = length * width;
+
+        System.out.println("Area of rectangle: " + area );
+    }
+
+    public  void  numberOperations(){
         int number1 = 27;
         int number2 = 5;
         int sum = number1 + number2;
@@ -17,7 +38,6 @@ public class Main {
         System.out.println("Div is: \t" + div);
         System.out.println("Last decimal is: \t" + last_decimal );
 
-
-                ;
     }
 }
+
