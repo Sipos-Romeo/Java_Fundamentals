@@ -1,8 +1,8 @@
-package org.example;
+package codeforces;
 
 import java.util.Scanner;
 
-public class Main {
+public class Watermelon {
     public static void main(String[] args) {
         // declare variables
         Scanner scanner = new Scanner(System.in);  // Create a Scanner
@@ -18,4 +18,3 @@ public class Main {
             System.out.println("NO");
     }
 }
-
